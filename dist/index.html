@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded');
+        }
+    </script>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
+    <header>
+
+            <div class="promo">
+                <div class="container">
+                    <div class="promo__nav">
+                        <ul class="promo__nav_menu">
+                            <li class="promo__nav_menu-list">
+                                <a href="" class="promo__nav_menu-link">
+                                    IPhone
+                                </a>
+                            </li>
+                            <li class="promo__nav_menu-list">
+                                <a href="" class="promo__nav_menu-link">
+                                    Watch
+                                </a>
+                            </li>
+                            <li class="promo__nav_menu-list">
+                                <a href="" class="promo__nav_menu-link">
+                                    AirPods
+                                </a>
+                            </li>
+                            <li class="promo__nav_menu-list promo__logo">
+                                <a href="" class="promo__nav_menu-link promo_logo-img">
+                                    <img class="promo__nav_menu-link_logo-img" src="img/promo/logo-min.svg" alt="logo-yablonya-apple">
+                                </a>
+                            </li>
+                            <li class="promo__nav_menu-list">
+                                <a href="" class="promo__nav_menu-link">
+                                    Mac
+                                </a>
+                            </li>
+                            <li class="promo__nav_menu-list">
+                                <a href="" class="promo__nav_menu-link">
+                                    IPad
+                                </a>
+                            </li>
+                            <li class="promo__nav_menu-list">
+                                <a href="" class="promo__nav_menu-link">
+                                    Аксессуары
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="promo__nav_menu-basket">
+                            <a href="#" class="promo__nav_menu-link">
+                                <img class="promo__nav_menu-basket_img" src="img/promo/basket.svg" alt="#">
+                            </a>
+                            <!-- <div class="promo__nav_menu-basket_icons">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="promo__video">
+                    <video class="promo__video_media" src="https://www.apple.com/105/media/us/iphone-14-pro/2023/b094f6e4-dcdb-494f-bd72-45d659126dcd/anim/hero/large_2x.mp4" autoplay muted loop></video>
+                    <div class="container">
+                        <div class="promo__video_descr">
+                            <h1 class="promo__video_title">IPhone 14</h1>
+                            <span class="promo__video_descr-span">
+                                Теперь в любимых цветах
+                            </span>
+                        </div>
+                        <div class="promo__video_button">
+                            <a href="#" class="promo__video_button-choice">
+                                Выбери цвет по душе
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="video">
+                    <video class="video__media" src="https://www.apple.com/105/media/us/apple-watch-series-8/2022/f1d3c9a3-865e-4b6b-b3e9-21e9a6d46ce2/anim/hero/large.webm" autoplay muted loop></video>
+                </div> -->
+            </div>
+</header>
+
+
+<main>
+
+    
+    <div class="assortment">
+        <div class="container">
+            <h2 class="page__title">
+                Наш ассортимент
+            </h2>
+            <div class="assortment__cards">
+                <div class="assortment__card assormnet__card_iphones">
+                    <img src="img/assortment/iphones.png" alt="#" class="assortment__card_img assortment__card_img-iphone"> <br>
+                    <p class="assortment__card_name">
+                        IPhone
+                    </p>
+                </div>
+                <div class="assortment__card assormnet__card_ipad">
+                    <img src="img/assortment/ipad.png" alt="#" class="assortment__card_img assortment__card_img-ipad"><br>
+                    <p class="assortment__card_name">
+                        IPad 
+                    </p>
+                </div>
+                <div class="assortment__card assormnet__card_watch">
+                    <img src="img/assortment/watch.png" alt="#" class="assortment__card_img assortment__card_img-watch"><br>
+                    <p class="assortment__card_name">
+                        Watch
+                    </p>
+                </div>
+                <div class="assortment__card assormnet__card_airpods">
+                    <img src="img/assortment/airpods.png" alt="#" class="assortment__card_img assortment__card_img-airpods"><br>
+                    <p class="assortment__card_name">
+                        AirPods
+                    </p>
+                </div>
+                <div class="assortment__card assormnet__card_mac">
+                    <img src="img/assortment/mac.png" alt="#" class="assortment__card_img assortment__card_img-mac"><br>
+                    <p class="assortment__card_name">
+                        Mac
+                    </p>
+                </div>
+                <div class="assortment__card assormnet__card_cases">
+                    <img src="img/assortment/cases.png" alt="#" class="assortment__card_img assortment__card_img-cases"><br>
+                    <p class="assortment__card_name">
+                        Аксессуары
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="catalog">
+        <div class="container">
+            <h2 class="page__title">
+                Выбери цвет по душе
+            </h2>
+            <div class="catalog__choice">
+                <div class="catalog__choices catalog__choice_iphone catalog__active">
+                    IPhone
+                </div>
+                <div class="catalog__choices catalog__choice_audio">
+                    Аудио
+                </div>
+                <div class="catalog__choices catalog__choice_watch">
+                    Apple Watch
+                </div>
+                <div class="catalog__choices catalog__choice_mac">
+                    Mac
+                </div>
+                <div class="catalog__choices catalog__choice_ipad">
+                    IPad
+                </div>
+            </div>
+            
+            <div class="catalog__cards">
+                <div class="catalog__card">
+                    <div class="catalog__card_main">
+                        <h3 class="catalog__card_main-title">IPhone 14 Pro</h3>
+                        <img src="img/catalog/iphone 14 pro.png" alt="#" class="catalog__card_main-img">
+                        <div class="catalog__card_main-sizes">
+                            <div class="catalog__card_main-size">
+                                <div class="catalog__card_main-size-inside">
+                                    <p class="catalog__card_main-size_count">
+                                        126 ГБ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__card_main-sizes">
+                            <div class="catalog__card_main-size">
+                                <div class="catalog__card_main-size-inside">
+                                    <p class="catalog__card_main-size_count">
+                                        258 ГБ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__card_main-sizes">
+                            <div class="catalog__card_main-size">
+                                <div class="catalog__card_main-size-inside">
+                                    <p class="catalog__card_main-size_count">
+                                        526 ГБ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__card_main-sizes">
+                            <div class="catalog__card_main-size">
+                                <div class="catalog__card_main-size-inside">
+                                    <p class="catalog__card_main-size_count">
+                                        1 ТБ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="catalog__card_main-basket">
+                            <p class="catalog__card_main-basket_price">
+                                80 000 ₽
+                            </p>
+                            <p class="catalog__card_main-basket_add">
+                                В корзину
+                            </p>
+                        </button>
+                    </div>
+                    <div class="catalog__card_color">
+                        <div class="catalog__card_color-black"></div>
+                        <div class="catalog__card_color-grey"></div>
+                        <div class="catalog__card_color-white"></div>
+                        <div class="catalog__card_color-brown"></div>
+                    </div>
+                    <div class="catalog__card_offers">
+                        <div class="catalog__card_offer catalog__card_offer-watch">
+                            <img src="img/catalog/watch.svg" class="catalog__card_offer-watch_img" alt="#">
+                        </div>
+                        <div class="catalog__card_offer catalog__card_offer-airpods">
+                            <img src="img/catalog/airpods.svg" class="catalog__card_offer-airpods_img" alt="#">
+                        </div>
+                        <div class="catalog__card_offer catalog__card_offer-mac">
+                            <img src="img/catalog/mac.svg" class="catalog__card_offer-mac_img" alt="#">
+                        </div>
+                        <div class="catalog__card_offer catalog__card_offer-case">
+                            <img src="img/catalog/case.svg" class="catalog__card_offer-case_img" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+    <footer></footer>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
